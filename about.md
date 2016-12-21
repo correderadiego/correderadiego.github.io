@@ -6,8 +6,6 @@ image: /images/pic02.jpg
 published: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+It is always difficult to define someone and even more difficult if you have to define yourself. I am a Spanish Telecommunication Engineer. I am interested in technology mainly in robotics, 3d printing, audio and everything that could teach me something. I am an amateur potographer too.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I will try to documment all my projects in this blog and share them with you. Stay tunned!
