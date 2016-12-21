@@ -1,27 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-14 16:52:07
+title: 'Icezum Alhambra : WELCOME !!'
+date: {}
 categories: jekyll update
 tags: jekyll update
 image: /images/pic02.jpg
+published: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+On the last few days I have received my Icezum Alhambra. The very first Open FPGA board that can be used with open tools. This projects comes from an inicitive of the community. They have built the firts 100 units and I have one of them.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+In this [link][icezum-wiki] you could obtain all the information of the board, the features and some videos.
 
-Jekyll also offers powerful support for code snippets:
+The board comes preprogramed with some code that you could find in this [link][user-test]. When you connect it to your pc the leds start blinking. You can choose your test mode pushing switch button one. This code includes the following modes :
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+ *	First test mode : Blinking leds
+ *  Second test mode : 
+ *  Third test mode  : The board send a message using the serial port (115200 baud) when you push switch button two.
+ *  Fourth test mode : Echo mode. The code echoes the strings received using the serial port.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[icezum-wiki]: https://github.com/FPGAwars/icezum/wiki
+[user-test]: https://github.com/FPGAwars/icezum/tree/master/examples/user-test
